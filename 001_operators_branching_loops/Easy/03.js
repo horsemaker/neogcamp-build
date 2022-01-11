@@ -5,3 +5,6 @@ const num1 = 129;
 const num2 = 251;
 
 console.log(compareNum(num1, num2));
+
+// Using Math
+console.log("Max:", Math.max(num1, num2), "Min:", Math.min(num1, num2))
