@@ -7,3 +7,8 @@ const [num1, num2, num3, num4, num5] = numArray;
 
 console.log(add(...numArray));
 console.log(add(num1, num2, num3, num4, num5));
+
+// reduce => deduce a single value from the whole array ; returns a value
+// forEcah => act on every single value of the array ; returns undefined
+// map => returns array ; take every value and do operation on it => shallow copy
+// filter => returns array; specific condition => shallow copy
